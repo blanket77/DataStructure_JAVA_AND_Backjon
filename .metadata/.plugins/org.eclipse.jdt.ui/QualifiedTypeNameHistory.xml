@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Node"/>
+    <fullyQualifiedTypeName name="Test.LinkedList"/>
+    <fullyQualifiedTypeName name="LinkedList.Node"/>
+    <fullyQualifiedTypeName name="LinkedList"/>
+    <fullyQualifiedTypeName name="SingleLinkedList2"/>
+    <fullyQualifiedTypeName name="SingleLinkedList2.Reference"/>
+    <fullyQualifiedTypeName name="Reference"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.memory.HeapBlock.Header"/>
+    <fullyQualifiedTypeName name="upgrade.SingleLinkedList"/>
+</qualifiedTypeNameHistroy>

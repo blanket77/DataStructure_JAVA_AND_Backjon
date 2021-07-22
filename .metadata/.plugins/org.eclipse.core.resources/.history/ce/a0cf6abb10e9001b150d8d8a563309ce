@@ -1,0 +1,16 @@
+class SingleLinkedList_T
+{
+	static  Node()
+	{
+		int data;
+		Node next = new Node();
+	}
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+
+	}
+
+}

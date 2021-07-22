@@ -1,0 +1,16 @@
+package upgrade;
+
+public class Node{
+	int data;
+	Node next = null;
+	
+	Node(){}
+	
+	Node(int d){
+		this.data = d;
+	}
+}
+
+class Reference{
+	int count = 0;
+}
