@@ -1,0 +1,40 @@
+package Stack;
+
+class Node{
+	int data;
+	Node next = null;
+	
+	Node(){};
+	Node(int d){
+		this.data = d;
+	}
+}
+
+class Stack{
+	Node top = new Node();
+	
+	public void push(int d)
+	{
+		 Node n = new Node(d);
+		 n.next = top;
+		 n = top;
+	}
+	
+	public int pop() {
+		if (top == null ||top.next == null) {
+			System.out.println("값이 없습니다.");
+			return -1;
+		}
+		int r = top.data;
+		top = top.next;
+		return r;
+	}
+}
+
+public class StackPro {
+	public static void main(String args[])
+	{
+		
+	}
+
+}

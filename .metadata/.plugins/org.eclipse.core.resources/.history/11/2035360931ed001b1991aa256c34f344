@@ -1,0 +1,32 @@
+package Queue;
+
+class Node
+{
+	int data;
+	Node next = null;
+	Node(){};
+	Node(int d){
+		this.data = d ;
+	}
+}
+
+class Queue{
+	Node first = new Node();
+	
+	void push(int data) {
+		Node n = new Node(data);
+		first.next = 
+	}
+	
+	int pop() {
+		if(first == null || first.next == null){
+			System.out.println("데이터가 없습니다.");
+			return -1;
+		}
+		
+	}
+}
+
+public class QueuePRo {
+
+}

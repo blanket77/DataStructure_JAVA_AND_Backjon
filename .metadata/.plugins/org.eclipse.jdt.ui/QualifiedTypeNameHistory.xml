@@ -9,4 +9,6 @@
     <fullyQualifiedTypeName name="Reference"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.memory.HeapBlock.Header"/>
     <fullyQualifiedTypeName name="upgrade.SingleLinkedList"/>
+    <fullyQualifiedTypeName name="Stack.Stack"/>
+    <fullyQualifiedTypeName name="Queue.Queue"/>
 </qualifiedTypeNameHistroy>

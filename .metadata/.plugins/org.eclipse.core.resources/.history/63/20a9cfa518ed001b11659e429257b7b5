@@ -1,0 +1,15 @@
+package Stack;
+
+class Node{
+	int data;
+	Node next = new Node();
+	
+}
+
+class Stack{
+	
+}
+
+public class StackPro {
+
+}

@@ -1,0 +1,29 @@
+package Stack;
+
+class Node{
+	int data;
+	Node next = new Node();
+	
+	Node(){};
+	Node(int d){
+		this.data = d;
+	}
+}
+
+class Stack{
+	Node top = new Node();
+	
+	public int push(int d)
+	{
+		
+	
+	}
+}
+
+public class StackPro {
+	public static void main(String args[])
+	{
+		
+	}
+
+}
