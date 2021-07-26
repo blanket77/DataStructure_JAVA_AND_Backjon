@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\quant\OneDrive\바탕 화면\2021년\자료구조\.metadata\.plugins\org.eclipse.jdt.core
-3460880079.index
-1615509391.index
