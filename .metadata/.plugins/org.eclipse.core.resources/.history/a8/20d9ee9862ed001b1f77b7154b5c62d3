@@ -1,0 +1,11 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class B15649 {
+	public static void main(String[] arg) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+	}
+	
+
+}

@@ -1,0 +1,28 @@
+package BinaryTreeTraversal;
+
+class Node{
+	int data;
+	Node next = null;
+	Node(){};
+	Node(int d){
+		this.data = d ;
+	}
+}
+
+class Tree{
+	Node left;
+	Node right;
+	int data;
+	
+	Tree(){};
+	
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

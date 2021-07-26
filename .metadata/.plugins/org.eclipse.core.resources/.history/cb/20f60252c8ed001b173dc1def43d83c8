@@ -1,0 +1,31 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class B15649 {
+	public static void main(String[] arg) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		int M = Integer.parseInt(br.readLine());
+		int[] a = new int[3];
+		print(a);
+//		func(N,M);
+//		br.close();
+	}
+	static void dfs(int L, int N, int M) {
+		int[] checklist = new int[3];
+		
+		//checklist, result
+	}
+	
+	static void print(int[] A) {
+		for(int i = 0 ; i<A.length ; i++) {
+			System.out.print(A[i] + " ");
+		}
+		System.out.println();
+	}
+	
+//	static int[] makeChecklist(int N) {
+//		
+//	}
+}

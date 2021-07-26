@@ -1,0 +1,36 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class B15649 {
+	static int[] cheklist;
+	static int[] result;
+	
+	public static void main(String[] arg) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		int N = Integer.parseInt(br.readLine());
+//		int M = Integer.parseInt(br.readLine());
+//		func(N,M);
+//		br.close();
+	}
+// 무조건 a=0이여야함
+	static void dfs(int L, int N, int M, int a) {
+		if(a==0){
+			checklist = new int[N];
+			result = new int[M];
+			a++;
+		}
+		if()
+	}
+	
+	static void print(int[] A) {
+		for(int i = 0 ; i<A.length ; i++) {
+			System.out.print(A[i] + " ");
+		}
+		System.out.println();
+	}
+	
+//	static int[] makeChecklist(int N) {
+//		
+//	}
+}
