@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class B15649 {
 	static int[] checklist;
@@ -8,8 +9,9 @@ public class B15649 {
 	
 	public static void main(String[] arg) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
-		int r = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int n = Integer.parseInt(st.nextToken());
+		int r = Integer.parseInt(st.nextToken());
 		checklist = new int[n];
 		result = new int[r];
 		dfs(0, n, r);

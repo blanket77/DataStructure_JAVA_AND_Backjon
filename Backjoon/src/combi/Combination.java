@@ -3,14 +3,16 @@ package combi;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class Combination {
 	static int[] result;
 	
 	public static void main(String[] arg) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
-		int r = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int n = Integer.parseInt(st.nextToken());
+		int r = Integer.parseInt(st.nextToken());
 		result = new int[r];
 		dfs(0, 0 , n, r); // Level 0, start 0
 		br.close();
